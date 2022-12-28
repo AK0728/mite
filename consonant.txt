@@ -1,0 +1,17 @@
+#include <stdio.h> 
+#include <string.h> 
+int main() 
+{ 
+    char s[10]; 
+    int i; 
+    scanf("%s",&s); 
+    for(i=0;i<strlen(s);i++){ 
+        if(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u'){ 
+            printf("%c is vowel\n",s[i]); 
+        } 
+        else{ 
+            printf("%c is consonant\n",s[i]); 
+        } 
+    } 
+    return 0; 
+}
